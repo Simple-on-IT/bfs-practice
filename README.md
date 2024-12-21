@@ -11,5 +11,5 @@
 * `npm run dev` - сборка для разработки
 
 ## Дополнительные материалы:
-Документация: https://ru.wikipedia.org/wiki/Поиск_в_ширину
-Видео - 
+Документация: https://ru.wikipedia.org/wiki/Поиск_в_ширину  
+Видео - https://youtube.com/shorts/14dCxyQNNqs?feature=share
