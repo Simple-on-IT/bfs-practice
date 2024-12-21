@@ -1,0 +1,96 @@
+/* Graph.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.select {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+
+.button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.stage {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+/* Медиазапросы для устройств с шириной экрана до 768px (например, планшеты и смартфоны) */
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .label {
+    font-size: 16px;
+  }
+
+  .select {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .button {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .stage {
+    width: 100% !important;
+  }
+}
+
+/* Медиазапросы для устройств с шириной экрана до 480px (например, смартфоны) */
+@media (max-width: 480px) {
+  .label {
+    font-size: 14px;
+  }
+
+  .select {
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+}
